@@ -10,7 +10,7 @@ int main() {
 
     
     while (scanf(" %c", &plan) != 0) {
-        int nx = x, ny = y; 
+        int nx = x, ny = y; // 일단 머릿속으로만 가보기 (임시 좌표)
 
         // 3. 방향에 따른 이동 계산
         if (plan == 'L') ny--;      // 왼쪽
